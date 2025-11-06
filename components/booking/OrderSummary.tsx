@@ -5,7 +5,7 @@ const OrderSummary: React.FC<{ bookingDetails: any }> = ({ bookingDetails }) => 
     <div className="bg-white p-6 shadow-md rounded-lg">
     <h2 className="text-xl font-semibold">Review Order Details</h2>
     <div className="flex items-center mt-4">
-        <Image src={"https://example.com/property.jpg"} alt={"Property"} width={32} height={32} className="object-cover rounded-md"/>
+        <Image src={"/assets/images/image 2.jpg"} alt={"Property"} width={32} height={32} className="object-cover rounded-md"/>
         <div className="ml-4">
         <h3 className="text-lg font-semibold">{bookingDetails.propertyName}</h3>
         <p className="text-sm text-gray-500">4.76 (345 reviews)</p>
