@@ -71,7 +71,7 @@ const BookingForm = () => (
         </div>
         </div>
         <div>
-            <label>Country</label>
+            <label className="text-[#747474] font-medium">Country</label>
             <input type="text" className="border rounded-lg p-2 w-full mt-2 border-gray-200" />
         </div>
 
